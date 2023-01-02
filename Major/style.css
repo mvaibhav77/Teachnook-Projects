@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #333;
+}
+
+.card{
+    background: -webkit-linear-gradient(to left, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    max-width: 550px;
+}
+
+.header{
+    font-family: "Satisfy";
+}
+
+.form-group, .params{
+    font-size:1.2em;
+}
+
+#city{
+    font-size: 1.1em;
+}
+
+.currWeather .btn{
+    border-radius:30px;
+    font-size: 1.4em;
+}
+
+.currWeather .temp{
+    font-size:4em;
+}
+
+.nextSevenDays .btn{
+    position: relative;
+    float: right;
+}

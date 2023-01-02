@@ -1,0 +1,64 @@
+html{
+    overflow-x: hidden;
+    margin: 95px 0;
+}
+
+.item{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:baseline; */
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    box-shadow: -2px 2px 10px 0px rgba(rgb(19, 17, 17), 0.4);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.container{
+    width: 70%;
+}
+
+.item:hover{
+    z-index:2;
+    transform: scale(1.1);
+}
+
+.header {
+    z-index: 3;
+    top:0;
+    width: 100vw;
+    position: fixed;
+    font-family: "Satisfy", serif;
+    background-color: rgb(230, 199, 21);
+}
+
+
+.badge{
+    font-family: "Aref Ruqaa";
+    z-index:1;
+    position:absolute;
+    background-color: antiquewhite;
+    top:5px;
+
+}
+.text{
+    position: relative;
+    font-family: "Aref Ruqaa";
+    z-index: 1;
+    padding: 15px;
+    color: #444;
+    background-color: antiquewhite;
+    letter-spacing: 1px;
+    color: #828282;
+}
+
+.footer{
+    z-index: 4;
+    width: 100vw;
+    position: fixed;
+    bottom:0;
+    background-color: #444;
+}
+    
